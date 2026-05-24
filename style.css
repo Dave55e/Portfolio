@@ -1,8 +1,6 @@
 body {
     background-image: url(./Images/Background\ image.png);
-    
 }
-
 
 ul {
     list-style-type: none;
@@ -10,52 +8,46 @@ ul {
     padding: 0;
     display: flex;
     font-weight: bold;
-    
-    /*gap: 17.6%;
-    padding: 15px 40px;
-    padding-right: 120px;*/
 }
 
-ul li a{
+ul li a {
     display: block;
     text-shadow: 3px 3px 5px black;
-    color: #9D8C54;
+    color: white;
     padding: 12px 100px;
     text-decoration: none;
     font-size: xx-large;
 }
-    
 
 ul li a:hover {
-  color: aliceblue;
-  background-color: navy;
-  text-decoration: none;      
-  border-bottom: 2px solid gold; 
-  padding-bottom: 12px;
-  transition-duration: 0.25s; 
+    color: aliceblue;
+    background-color: navy;
+    text-decoration: none;      
+    border-bottom: 2px solid gold; 
+    padding-bottom: 12px;
+    transition-duration: 0.25s; 
 }
-img{
+
+img {
     border-radius: 50%;
     position: fixed;
     bottom: 50px;
     right: 50px;
 }
 
-h1{
+h1 {
     color: #9D8C54;
     padding-left: 15px;
     text-decoration: underline;
     font-size: 45px;
-    
 }
 
-.project a{
+.project a, .project1 a {
     text-decoration: none;
     font-size: large;
-
 }
 
-.project{
+.project {
     background-color: white;
     position: fixed;
     width: 250px;
@@ -67,13 +59,7 @@ h1{
     border-color: #9D8C54;
 }
 
-.cv a{
-    text-decoration: none;
-    font-size: large;
-
-}
-
-.cv{
+.project1 {
     background-color: white;
     position: fixed;
     width: 250px;
@@ -85,28 +71,30 @@ h1{
     border-color: #9D8C54;
 }
 
-.arrow{
+.arrow {
     position: fixed;
     top: 280px;
     left: 0;
 }
-/*.arrow1{
+
+.arrow1 {
+    position: fixed;
     top: 520px;
     left: 0;
 }
-*/
-p{
+
+p {
     color: #9D8C54;
     text-align: center;
     font-size: x-large;
 }
 
 ul li a.active {
-  border-bottom: 2px solid #9D8C54; /* Shows a permanent line under the current page */
-  font-weight: bold;
+    border-bottom: 2px solid #9D8C54;
+    font-weight: bold;
 }
 
-.message{
+.message {
     position: fixed;
     bottom: 10px;
     left: 40%;
@@ -121,8 +109,7 @@ ul li a.active {
     padding: 0 20px;
 }
 
-/* CV PAGE */
-div{
+div {
     font-size: 40px;
     color: black;
     background-color: white;
@@ -132,9 +119,3 @@ div{
     font-family: "serif", Times, "Times New Roman";
     text-align: center;
 }
-/*#cv_heading{
-    font-size: x-large;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-}*/
