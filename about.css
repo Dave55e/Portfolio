@@ -1,0 +1,64 @@
+body {
+    background-image: url(./Images/Background\ image.png);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-weight: bold;
+}
+
+ul li a {
+    display: block;
+    text-shadow: 3px 3px 5px black;
+    color: white;
+    padding: 12px 100px;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+ul li a:hover {
+    color: aliceblue;
+    background-color: navy;
+    text-decoration: none;      
+    border-bottom: 2px solid gold; 
+    padding-bottom: 12px;
+    transition-duration: 0.25s; 
+}
+
+#profile_pic {
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+h1 {
+    color: #9D8C54;
+    padding-left: 15px;
+    text-decoration: underline;
+    font-size: 45px;
+}
+
+p {
+    color: #9D8C54;
+    text-align: center;
+    font-size: x-large;
+}
+
+.box{
+    background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.tech{
+}
+.creative-work1{
+   
+}
