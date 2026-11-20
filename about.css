@@ -57,8 +57,32 @@ p {
 
 }
 
+.creative_work_1{
+  display: flex;
+  align-items: center; 
+  gap: 24px;           
+}
+
+.creative_work_1 img {
+  width: 500px;      
+  max-width: 100%;   
+  height: auto;
+  flex-shrink: 0
+}
+
+.creative_work_1 p {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*
 .tech{
-}
-.creative-work1{
-   
-}
+}*/
